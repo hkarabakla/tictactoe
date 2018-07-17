@@ -1,6 +1,5 @@
 package com.hkarabakla.game.command;
 
-import com.hkarabakla.game.input.ConsoleInputCollector;
 import com.hkarabakla.game.input.RandomInputCollector;
 import com.hkarabakla.game.model.Board;
 import com.hkarabakla.game.model.Game;
@@ -15,7 +14,6 @@ import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class PlayerActionCommandTest {

@@ -1,14 +1,12 @@
 package com.hkarabakla.game.command;
 
 import com.hkarabakla.game.model.Game;
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.PrintStream;
 
-import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 public class ConfigLoaderCommandTest {
