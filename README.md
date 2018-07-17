@@ -18,7 +18,7 @@ A configuration file must be created in the format below before starting the gam
 After that created jar must be run with the command below and created config file path must be given to javac command.
 
 ``
-java -jar tictactoe-1.0-SNAPSHOT.jar config-3x3.properties
+java -jar tictactoe-1.0-SNAPSHOT.jar config.properties
 ``
 
 ### Configuration File
