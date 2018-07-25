@@ -32,7 +32,7 @@ public class Game {
     }
 
     public static class GameBuilder {
-        private Player[] players;
+        private Player[] players = new Player[3];
         private Board board;
 
         private GameBuilder() {
